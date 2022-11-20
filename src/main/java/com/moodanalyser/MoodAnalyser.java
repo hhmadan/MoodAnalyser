@@ -9,6 +9,6 @@ public class MoodAnalyser {
     }
     public static void main(String[] args) {
         MoodAnalyser mood = new MoodAnalyser();             //MoodAnalyser object
-        System.out.println(mood.analyseMood("I am in Happy mood"));
+        System.out.println(mood.analyseMood("I am in any mood"));
     }
 }

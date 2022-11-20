@@ -10,5 +10,6 @@ public class MoodAnalyserTest {
     public void test_SadMood(){
         MoodAnalyser mood = new MoodAnalyser();
         assertEquals("SAD MOOD",mood.analyseMood("I am in sad mood"));
+        assertEquals("HAPPY MOOD",mood.analyseMood("I am in any mood"));
     }
 }
